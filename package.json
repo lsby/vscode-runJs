@@ -41,5 +41,15 @@
     "escodegen": "^2.0.0",
     "esprima": "^4.0.1",
     "tree-kill": "^1.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsby/runJs.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/lsby/runJs/issues"
+  },
+  "homepage": "https://github.com/lsby/runJs#readme"
 }
