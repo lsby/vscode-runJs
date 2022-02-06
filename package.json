@@ -1,0 +1,45 @@
+{
+  "name": "runjs",
+  "displayName": "运行选中的js代码",
+  "description": "运行选中的js代码",
+  "publisher": "hbybyyang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:runjs.runjs",
+    "onCommand:runjs.kill"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "runjs.runjs",
+        "title": "runjs: 运行选中代码"
+      },
+      {
+        "command": "runjs.kill",
+        "title": "runjs: 杀死在执行的进程"
+      }
+    ]
+  },
+  "scripts": {
+    "pack": "vsce package",
+    "pub": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.64.0",
+    "glob": "^7.2.0"
+  },
+  "dependencies": {
+    "escodegen": "^2.0.0",
+    "esprima": "^4.0.1",
+    "tree-kill": "^1.2.2"
+  }
+}
