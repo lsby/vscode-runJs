@@ -2,13 +2,13 @@
 
 [商店地址](https://marketplace.visualstudio.com/items?itemName=hbybyyang.runjs)
 
-[仓库地址](https://github.com/lsby/runJs)
+[仓库地址](https://github.com/lsby/vscode-runJs)
 
 一个 vscode 插件, 运行选中的 js 代码.
 
 只支持 js 代码.
 
-![效果图](https://raw.githubusercontent.com/lsby/runJs/master/doc/20220206121109.gif)
+![效果图](https://raw.githubusercontent.com/lsby/vscode-runJs/master/doc/20220206121109.gif)
 
 ## 用法
 

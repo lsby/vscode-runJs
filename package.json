@@ -3,7 +3,7 @@
   "displayName": "runjs",
   "description": "运行选中的js代码",
   "publisher": "hbybyyang",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.64.0"
   },
@@ -44,12 +44,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lsby/runJs.git"
+    "url": "git+https://github.com/lsby/vscode-runJs.git"
   },
   "author": "",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/lsby/runJs/issues"
+    "url": "https://github.com/lsby/vscode-runJs/issues"
   },
-  "homepage": "https://github.com/lsby/runJs#readme"
+  "homepage": "https://github.com/lsby/vscode-runJs#readme",
+  "directories": {
+    "doc": "doc"
+  }
 }
