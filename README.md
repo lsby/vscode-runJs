@@ -4,6 +4,8 @@
 
 只支持 js 代码.
 
+![效果图](https://raw.githubusercontent.com/lsby/runJs/master/doc/20220206121109.gif)
+
 ## 用法
 
 1. 下载扩展

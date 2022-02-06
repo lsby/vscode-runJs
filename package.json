@@ -3,7 +3,7 @@
   "displayName": "runjs",
   "description": "运行选中的js代码",
   "publisher": "hbybyyang",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.64.0"
   },
